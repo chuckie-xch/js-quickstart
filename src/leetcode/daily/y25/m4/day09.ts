@@ -1,4 +1,4 @@
-function minOperations(nums: number[], k: number): number {
+function minOperations1(nums: number[], k: number): number {
     const set = new Set();
     for (let x of nums) {
         if (x < k) {
